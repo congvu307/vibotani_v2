@@ -1,0 +1,313 @@
+﻿@{
+    ViewBag.Title = "Trang chủ";
+}
+<section>
+    <div id="ViBotaniCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators ViBotani-carousel-indicators">
+            <li data-target="#ViBotaniCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#ViBotaniCarousel" data-slide-to="1"></li>
+            <li data-target="#ViBotaniCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" style="position:relative;">
+            <div>
+                <img src="~/Content/Image/logo3.png" class="carousel-img" />
+            </div>
+            <div class="carousel-item active">
+                <div class=" image-container-2">
+                    <img src="~/Content/Image/Intro/9367.png" class="d-block" />
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class=" image-container-2">
+                    <img src="~/Content/Image/Intro/9346.png" class="d-block" />
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class=" image-container-2">
+                    <img src="~/Content/Image/Intro/9626.png" class="d-block" />
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class=" image-container-2">
+                    <img src="~/Content/Image/Intro/8U9A5229.png" class="d-block" />
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class=" image-container-2">
+                    <img src="~/Content/Image/Intro/8U9A9732.png" class="d-block" />
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#ViBotaniCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#ViBotaniCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<section>
+    <div id="product" class="bg-p text-center">
+        <h2 class="bg-p text-green text-center">
+            SẢN PHẨM CỦA VITABONI
+        </h2>
+
+        <div class="row m-0">
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center bg p-1 ">
+                <div class="image-container-1 text-center br-50">
+                    <a href="#" data-toggle="modal" data-target="#modal-product">
+                        <img class="image" src="~/Content/Image/Intro/8U9A9734logo 2.jpg" />
+                    </a>
+                </div>
+                <a href="#" data-toggle="modal" data-target="#modal-product">
+                    <h4 class="text-green-s mt-3 mb-3">
+                        Sản phẩm trắng da
+                    </h4>
+                </a>
+                <p class="text text-green">
+                    Trắng mặt <br />Trắng toàn thân<br /> Trắng cấp tốc
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center bg  p-1">
+                <div class="image-container-1 text-center br-50">
+                    @*<a href="#" data-toggle="modal" data-target="#modal-product">*@
+                    <img class="image" style="" src="~/Content/Image/Intro/9635.png" />
+                    @*</a>*@
+                </div>
+                <h4 class="text-green-s mt-3 mb-3">
+                    Sản phẩm đẹp da
+                </h4>
+                <p class="text text-green">
+                    Dưỡng da; Chống nắng<br /> Ngừa – Trị mụn; Mặt nạ <br />Tẩy tế bào chết<br />
+                    <small><i>Sẽ có mặt tại Việt Nam vào 04.2019</i></small>
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center bg  p-1">
+                <div class="image-container-1 text-center br-50">
+                    @*<a href="#" data-toggle="modal" data-target="#modal-product">*@
+                    <img class=" image" style="height:100%;width:auto;" src="~/Content/Image/Intro/9644.png" />
+                    @*</a>*@
+                </div>
+                <h4 class="text-green-s mt-3 mb-3">
+                    Mỹ phẩm
+                </h4>
+                <p class="text text-green">
+                    Nước hoa; Dầu gội <br />Thuốc nhuộm tóc; Phấn <br /> Gel vuốt tóc; Son<br />
+                    <small><i>Sẽ có mặt tại Việt Nam vào 06.2019</i></small>
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center bg  p-1">
+                <div class="image-container-1 text-center br-50">
+                    @*<a href="#" data-toggle="modal" data-target="#modal-product">*@
+                    <img class="image" style="" src="~/Content/Image/Intro/9471.png" />
+                    @*</a>*@
+                </div>
+                <h4 class="text-green-s mt-3 mb-3">
+                    Sản phẩm đặc trị
+                </h4>
+                <p class="text text-green">
+                    Bóng da<br />Mịn da<br />Trị thâm<br />
+                    <small><i>Sẽ có mặt tại Việt Nam vào 08.2019</i></small>
+                </p>
+            </div>
+        </div>
+        <h3 class="text-center text-green bg-p my-2 my-md-3">
+            Bạn có muốn làm nổi bật vẻ đẹp bởi dưỡng chất từ thiên nhiên?
+
+        </h3>
+        <a href="/home/product" class="text-center btn text-green-s bg-s">
+            Tới trang sản phẩm
+        </a>
+    </div>
+</section>
+
+<section>
+    <div id="feedback" class="bg text-center">
+        <h2 class="text-center text-green">
+            KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI?
+        </h2>
+
+        <div class="row pb-5">
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                <div class="image-container-1 text-center br-50">
+                    <img class="image" src="~/Content/Image/customer_phuong_trinh_jolie.jpg" />
+                </div>
+                <h3 class="text-green">
+                    Phương Trinh Jolie
+                </h3>
+
+                <p class="text-green text">
+
+
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                <div class="image-container-1 text-center br-50">
+                    <img class="image" src="~/Content/Image/customer_van_trang.jpg" />
+                </div>
+                <h3 class="text-green">
+                    Diễn viên Vân Trang
+                </h3>
+                <p class="text-green text">
+
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                <div class="image-container-1 text-center br-50">
+                    <img class="image" src="~/Content/Image/customer_gia_linh.jpg" />
+                </div>
+
+                <h3 class="text-green">
+                    Diễn viên Gia Linh
+                </h3>
+                <p class="text-green text">
+
+
+
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                <div class="image-container-1 text-center br-50">
+                    <img class="image" src="~/Content/Image/customer_tran_diem_ai_vi.jpg" />
+                </div>
+                <h3 class="text-green">
+                    Trần Diễm Ái Vi
+                </h3>
+                <p class="text-green text">
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div id="blog" class="bg-p">
+        <div class="row" id="blog-newest">
+            <div class="col-lg-3 col-md-12">
+                <img class="image" src="~/Content/Image/blog.png" />
+            </div>
+            <div class="col-lg-9 col-md-12 pl-5">
+                <h4 class="text-green-s">
+                    Bí quyết Nhật, Ý tưởng Nhật và những dòng sản phẩm trắng da cho Người Việt
+                </h4>
+                <p class="text-green text-justify">
+                    Cô Katayama Mai, với nhiều năm kinh nghiệm trong ngành thiết kế tại Nhật Bản, tác giả sáng tạo các kiểu bao bì bắt mắt và tinh tế của BiOshi tin rằng bản thân tên gọi thương hiệu – BiOshi đã thể hiện ý nghĩa của các sản phẩm mà thương hiệu này đại diện, đó là “Người” làm đẹp da, trắng da; còn bao bì hướng đến đặc tính dịu dàng, đằm thắm và sang trọng của người sử dụng; trong đó, Hoa Anh Đào thể hiện nét đặc trưng của Người Nhật, chữ “O” màu hồng thể hiện cánh hoa hồng hào xinh tươi; màu trắng và hồng chủ đạo biểu hiện công dụng của sản phẩm làm đẹp, trắng da; màu xanh thể hiện đặc tính nguyên liệu làm ra sản phẩm – các tinh chất thiết yếu từ thiên nhiên, đồng thời cũng thể hiện sự thân thiện với môi trường. Bao bì phối hợp giữa màu trắng, hồng và xanh thể hiện sự nhã nhặn, hiện đại và sang trọng của thương hiệu BiOshi, đây cũng là điều mà thương hiệu này muốn nhắn gởi và xây dựng cho khách hàng mục tiêu của mình.
+                </p>
+                <div class="text-right ">
+                    <button class="btn bg-s text-green-s border-1">Xem thêm</button>
+                </div>
+            </div>
+
+        </div>
+        <hr style="width:80%;   margin-left:10%;" />
+        <div class="row blog-last3 text-center">
+            <div class="col-md-4 col-sm-12">
+                <img class="w-75 " src="~/Content/Image/blog1.png" />
+                <h5 style="margin-top:1em;">
+                    Nghiên cứu công thức sản phẩm
+                </h5>
+                @*<p class="text-green">Một vài dòng mô tả cho bài viết thêm sinh động và trực quan</p>
+                    <button class="btn bg-s text-green-s border-1">Xem thêm</button>*@
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <img class="w-75" src="~/Content/Image/blog2.png" />
+                <h5 style="margin-top:1em;">
+                    Quá trình sản xuất sản phẩm
+                </h5>
+                @*<p class="text-green">Một vài dòng mô tả cho bài viết thêm sinh động và trực quan</p>
+                    <button class="btn bg-s text-green-s border-1">Xem thêm</button>*@
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <img class="w-75" src="~/Content/Image/blog3.png" />
+                <h5 style="margin-top:1em;">
+                    Thiết bị đóng màng co sản phẩm
+                </h5>
+                @*<p class="text-green">Một vài dòng mô tả cho bài viết thêm sinh động và trực quan</p>
+                    <button class="btn bg-s text-green-s border-1">Xem thêm</button>*@
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div id="agency" class="bg-s">
+        <h2 class="text-center text-green-s">NHÀ PHÂN PHỐI TIÊU BIỂU CÁC KÊNH</h2>
+        <ol>
+            <li class="text-green-s pb-3">
+
+                <strong>Kênh Bán hàng Online:</strong>
+                <p class="pl-5">
+                    <a href="#" class="text-green-s link" data-toggle="modal" data-target="#modal-agency">
+                        <i class="fas fa-arrow-right"></i> <b>Ms. Ngô Thị Mỹ Linh </b>-
+                    </a><small> Nhà phân phối độc quyền tại Khu vực Miền Tây 1</small> (0389179265)<br />
+
+                    <a href="#" class="text-green-s link" data-toggle="modal" data-target="#modal-agency1">
+                        <i class="fas fa-arrow-right"></i> <b> Ms. Dương Thị Tố Nga </b>-
+                    </a><small> Nhà phân phối độc quyền tại Khu vực HCM 9</small> (0901180810)
+                </p>
+
+
+
+
+                @*<div class="row text-right">
+                        <p class="text-green text-right">SĐT:  0389179265 </p>
+                    </div>*@
+            </li>
+
+            <li class="text-green-s pb-3">
+                <strong>Kênh bán hàng Thương mại điện tử:</strong> <b>Ms. Nguyễn Thanh Nga </b>(0353442267)
+                <p class="pl-5"><small>
+    Nhà phân phối trên các Trang Thương mại điện tử Lazada, Shoppee, Tiki, Sendo,...
+    www.bioshi.net; www.facebook/BiOshiBeauty; bisohi.business.site
+</small>
+                    @*Phân phối trên các Trang Thương mại điện tử Lazada, Shoppee, Tiki, Sendo,...
+                        <a href="www.bioshi.net"  target="_blank">www.bioshi.net</a>; <a href="www.facebook/BiOshiBeauty" target="_blank">www.facebook/BiOshiBeauty</a>; <a href="bisohi.business.site" target="_blank">bisohi.business.site</a>*@
+                </p>
+
+            </li>
+            <li class="text-green-s pb-3">
+                <strong>Kênh bán hàng Hệ thống Spa:</strong> <b>Mr. Cao Hoài Danh</b>  (0977007603)
+                <p class="pl-5">
+                    Nhà phân phối Hệ thống Spa tại TP. HCM
+                </p>
+            </li>
+            <li class="text-green-s pb-3">
+                <strong>Kênh bán hàng truyền thống:</strong> <b>Mr. Võ Ngọc</b> (0931235778)
+                <p class="pl-5">
+                    <small>
+                        Nhà phân phối Hệ thống Cửa hàng Mỹ phẩm cao cấp tại TP. HCM
+                    </small>
+                </p>
+            </li>
+            <li class="text-green-s pb-3">
+                <strong>Thị trường Quốc tế:</strong>
+                <p class="pl-5">
+                    <b>Ms. Ngô Uyển Phương</b> -<small> Nhà phân phối tại Thị trường Đài Loan </small>(0917313138)<br />
+                    <b> Ms. Chanthy Jupi </b>(Mã Thanh Thúy) – <small>Đại lý tại Thị trường Campuchia </small>(0887430090)
+                </p>
+            </li>
+        </ol>
+        <div class="text-center pb-3">
+            <button data-toggle="modal" data-target="#modal-agency-condition" class="btn text-green bg-s  border-1">Đăng ký làm đại lý của ViBotani</button>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div style="-webkit-filter: grayscale(100%);
+filter: grayscale(100%); height:20em;" class="embed-responsive embed-responsive-21by9 mt-3">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7864452.3833377445!2d101.4132682470241!3d15.747719357779795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31157a4d736a1e5f%3A0xb03bb0c9e2fe62be!2zVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1551767197742" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</section>
